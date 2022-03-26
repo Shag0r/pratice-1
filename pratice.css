@@ -55,4 +55,35 @@ background-size: cover;
 img{
     border-radius: 10%;
 }
+.usual-btn{
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(azure,bisque);
+    color: yellowgreen;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 3px;
+
+}
+.usual-btn2{
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    padding: 40px;
+    margin: 5px 3px;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(snow,azure);
+    color: rosybrown;
+
+}
+.btns{
+    float: right;
+}
 
