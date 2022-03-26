@@ -48,7 +48,8 @@ background-size: cover;
     padding-left: 5%;
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
+    cursor: wait;
     
 }
 img{
