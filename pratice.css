@@ -1,76 +1,116 @@
-body{
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-margin: 0%;
-background-image: url(images/milkyway.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-image: url(images/milkyway.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
-.title-banner{
+.title-banner {
     text-align: center;
-  
+
 
 }
-.head-title{
+
+.head-title {
     font-size: 70px;
     color: chartreuse;
-    
+
 }
-.span-head{
+
+.span-head {
     color: lightseagreen;
-    
+
 }
-.head-title-subline{
+
+.head-title-subline {
     color: tomato;
 }
-.abt-bn{
+
+.abt-bn {
     font-size: 15px;
-    
+
     color: yellow;
 }
-.flex-era{
+
+.flex-era {
     display: flex;
 }
-.usual-head{
+
+.usual-head {
     font-size: 30px;
     color: lawngreen;
     font-weight: bolder;
 }
-.usual-para{
+
+.usual-para {
     color: lightseagreen;
     font-weight: bold;
 }
-.half-width{
+
+.usual-para:hover {
+    color: #9b1c31;
+    background-image: linear-gradient(azure, snow);
+    border: 5px solid hotpink;
+    border-radius: 5%;
+
+
+}
+
+.half-width {
     width: 50%;
     padding-left: 5%;
 }
-.half-width img{
+
+.half {
+    width: 30%;
+    padding: 5%;
+}
+
+.half img {
+    width: 80%;
+    cursor: crosshair;
+
+
+}
+
+.half-width img {
     width: 90%;
     cursor: wait;
-    
+
 }
-img{
+
+img {
     border-radius: 10%;
 }
-.usual-btn{
+
+.usual-btn {
     border: none;
     border-radius: 50px;
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(azure,bisque);
+    background-image: linear-gradient(azure, bisque);
     color: yellowgreen;
     font-weight: 800;
     padding: 20px;
     text-align: center;
     font-size: 20px;
     margin: 5px 3px;
+    cursor: grab;
 
 }
-.usual-btn2{
-    border:none;
+
+.usual-btn:hover {
+    background-image: linear-gradient(black, azure);
+    color: lightgreen;
+    text-transform: uppercase;
+}
+
+.usual-btn2 {
+    border: none;
     border-radius: 20px;
     font-size: 20px;
     text-align: center;
@@ -79,11 +119,57 @@ img{
     margin: 5px 3px;
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(snow,azure);
+    background-image: linear-gradient(snow, azure);
     color: rosybrown;
+    cursor: grabbing;
 
 }
-.btns{
+
+.usual-btn2:hover {
+    background-image: linear-gradient(rosybrown, snow);
+    color: white;
+}
+
+.btns {
     float: right;
+
 }
 
+.im {
+    background-image: linear-gradient(lime, yellowgreen);
+    height: 300px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10%;
+    border-radius: 40px;
+    text-align: center;
+
+    display: inline-block;
+
+
+
+
+}
+
+.im img {
+    border: 5px solid darkorange;
+
+}
+
+.im:hover {
+    border-radius: 70%;
+    text-transform: capitalize;
+
+
+    color: royalblue;
+
+    font-weight: 800;
+}
+
+.hding {
+    color: springgreen;
+    font-size: 50px;
+    font-weight: 700;
+
+}
