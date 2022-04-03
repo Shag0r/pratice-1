@@ -150,6 +150,7 @@ img {
 
 
 
+
 }
 
 .im img {
@@ -167,9 +168,46 @@ img {
     font-weight: 800;
 }
 
+
+
 .hding {
     color: springgreen;
     font-size: 50px;
     font-weight: 700;
+
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 0%;
+
+
+    padding: 35px;
+
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.nav a:hover {
+    background-color: #9b1c31;
+    padding-left: 50px;
+    border-radius: 60%;
+    text-shadow: blue;
+    text-align: center;
+}
+
+footer {
+    background-color: #9b1c31;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
 
 }
